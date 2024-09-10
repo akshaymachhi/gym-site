@@ -1,0 +1,60 @@
+.gym-footer-main{
+    color: var(--white-color);
+    /* padding-bottom: 20px; */
+}
+.logo img{
+    width: 200px;
+    padding-bottom: 20px;
+}
+.footer-links h3,p{
+    margin-bottom: 15px;
+}
+
+.gym-footer-main .footer-icon{
+    color: var(--red-color);
+    font-size: 2rem;
+    margin-right: 15px;
+}
+
+.gym-footer-main .fontawesome-icon{
+    /* color: var(--white-color); */
+    font-size: 1.5rem;
+}
+
+.footer-contact-link{
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.telephone .fontawesome-icon{
+    font-size: 2.5rem;
+}
+
+.footer-links .footer-page-link{
+    display: flex;
+    align-items: center;
+}
+
+.gym-footer-main .developed-company{
+    display: flex;
+    justify-content: space-between;
+}
+.gym-footer-main .developed-company .social-icons{
+    display: flex;
+}
+.gym-footer-main .developed-company .social-icons .social{
+    margin-right: 15px;
+}
+.developed-company .design-comapany-name span{
+    color: var(--red-color);
+}
+
+@media (max-width:768px){
+    .gym-footer-main{
+        padding: 20px;
+    }
+    .gym-footer-main .developed-company {
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,37 @@
+
+.header-contact{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 2;
+    top:0;
+    width: 100%;
+    padding: 20px;
+}
+.header-contact ul{
+    padding-left: 0;
+}
+
+.header-contact .header-contact-list{
+    display: flex;
+    font-size: 1.5rem;
+    margin-right: 20px;
+}
+/* .header-contact .header-social-icon{
+    display: flex;
+} */
+
+.header-contact-list .footer-icon{
+    color: var(--red-color);
+    padding-right: 10px;
+}
+
+.header-contact-list a{
+    color: var(--white-color);
+    text-decoration: none;
+}
+.header-contact-right .header-contact-list .social-white-icon{
+    margin-right: 20px;
+    cursor: pointer;
+}

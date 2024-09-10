@@ -1,0 +1,116 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", Sans-serif;
+}
+
+html{
+    font-size: 10px;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: black;
+    
+}
+
+.section-padding{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+:root{
+    --yellow-color:#FFD300;
+    --white-color:#FFFFFF;
+    --red-color:#FF4A38;
+
+}
+img{
+    width: 100%;
+}
+
+h1{
+    font-size:5rem;
+    color: var(--white-color);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 4.2rem;
+    font-weight: 700;
+    color: var(--white-color);
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.paragraph{
+    font-size: 1.6rem;
+    /* font-family: "Oswald", Sans-serif; */
+    padding-bottom: 20px;
+    /* padding-top: 10px; */
+    color: var(--white-color);
+}
+
+h3{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* // Button  */
+
+.primary-cta button.cta{
+    background-color: var(--red-color);
+    color: var(--white-color);
+    border: none;
+    /* font-family: "Oswald", Sans-serif; */
+    font-size:1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 15px 35px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+}
+
+.primary-cta button.cta:hover{
+    background-color: var(--white-color);
+}
+.primary-cta button.cta:hover{
+    color: var(--red-color);
+}
+
+.gym-label{
+    color: var(--red-color);
+    /* font-family: "Roboto", Sans-serif; */
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+a{
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+
+
+@media (max-width:768px){
+
+    h1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 2.5rem;
+    }
+    .primary-cta button.cta{
+        font-size:1rem;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .section-padding{
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+}

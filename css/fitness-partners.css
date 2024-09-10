@@ -1,0 +1,81 @@
+
+
+.female-fitness-partners .female-fitness-partner-name{
+    text-align: center;
+    padding-top: 30px;
+}
+.fitness-person h3{
+    color: var(--white-color);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.female-fitness-partners .female-fitness-partner-name p{
+    color: var(--red-color);
+    font-size: 1.5rem;
+}
+.fitness-partners .fitness-partners-description{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.male-fitness-partners{
+    position: relative;
+}
+
+.male-fitness-partners-social {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 0;
+    opacity: 0;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.male-fitness-partners:hover .male-fitness-partners-social{
+    background-color:rgba(0,0,0,.7);
+    height: 100%;
+    opacity: 1;
+}
+
+.male-fitness-partners .male-fitness-partners-social .social-icons{
+    margin-top: 20px;
+}
+.fitness-person .social-icons{
+    display: flex;
+}
+.social-icons .social img{
+    height: 15px;
+    width: 15px;
+    margin: 10px;
+    /* filter: invert(); */
+}
+.social-icons .social{
+    background: var(--red-color);
+    cursor: pointer;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+.social-icons .social:hover{
+    background-color: var(--white-color);
+}
+
+@media (max-width:915px){
+    .fitness-partners .fitness-person{
+        margin: 40px 10px 0 10px;
+    }
+    .fitness-partners .fitness-person .male-fitness-partners{
+        margin-bottom: 20px;
+
+    }
+    .fitness-partners .fitness-partners-description{
+        text-align: center;
+    }
+}

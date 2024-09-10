@@ -1,0 +1,11 @@
+
+.our-testimonials .gym-label{
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+@media (max-width:768px){
+    .our-testimonials{
+        text-align: center;
+    }
+}
